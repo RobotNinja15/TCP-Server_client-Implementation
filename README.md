@@ -9,7 +9,7 @@ This Project demonstrates basic socket communication where a client sends messag
 ## ⚙️Requirements
 
 - WIndows 10/11
-- [MingGW](http://www.mingw.org/)
+- [MingGW](https://www.mingw-w64.org/)
 
 ---
 
