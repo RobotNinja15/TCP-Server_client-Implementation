@@ -1,2 +1,34 @@
-# TCP-Server_client-Implementation
-Barebones TCP Server and Client Implementation in C++
+# Barebones TCP-Server_client-Implementation in C++
+
+A very simple and barebones TCP server and client implementation using Winsock2 in C++.
+
+This Project demonstrates basic socket communication where a client sends messages to a server, and the server echos them back.
+
+---
+
+## ⚙️Requirements
+
+- WIndows 10/11
+- [MingGW](http://www.mingw.org/)
+
+---
+
+## 🛠️ Build Instructions
+```bash
+g++ server.cpp -o server -lws2_32
+g++ client.cpp -o client -lws2_32
+```
+
+## how to run
+1. open two seperate terminals(powershell or command prompt)
+2. in the first terminal, run the server.
+   ```bash
+   server.exe
+   ```
+3. in the second terminal, run the client:
+   ```bash
+   client.exe
+   ```
+4. type messages in the client terminal and the server will echo the message back.
+   
+   
