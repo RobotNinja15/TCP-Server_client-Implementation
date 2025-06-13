@@ -30,5 +30,12 @@ g++ client.cpp -o client -lws2_32
    client.exe
    ```
 4. type messages in the client terminal and the server will echo the message back.
-   
-   
+
+## Features
+- Handles basic TCP communication
+- uses `std::getline()` for user input
+- extremly barebones so nothing much, lol
+
+## Example 
+![client image](images/client.png)
+![server_image](images/server.png)
